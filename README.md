@@ -67,11 +67,11 @@ documents across multiple venues.
 ├── README.md
 ├── scraping/
 │   ├── scrape_ietf_archive.R          # Main scraping script
-│   └── README.md                      # How to run, what it produces
+│  
 ├── complexity_measure/
 │   ├── compute_technical_complexity.py # Compute complexity score
 │   ├── requirements.txt                # Python dependencies
-│   └── README.md                       # Method details
+│  
 ├── examples/
 │   ├── example_document.txt            # Sample IETF document
 │   └── example_output.csv              # Example complexity scores
