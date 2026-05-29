@@ -18,11 +18,12 @@ This repository contains two components developed for the paper, each
 addressing a different side of the policymaking process in these venues:
 
 1. **A web scraper** (R) that collects messages from IETF working group
-   mailing list archives, extracting message bodies, senders, and dates.
+   mailing list archives, extracting message bodies and senders (in particular
+   the email addresses as a way to capture professional affiliations).
    This component is about *who is involved* in the policymaking
    process — identifying participants in discussions that shape the rules,
    beyond formal authorship of the final documents.
-2. **A technical complexity measure** (Python) that quantifies how
+3. **A technical complexity measure** (Python) that quantifies how
    specialised a policy document is, using WordNet synsets as a proxy for
    vocabulary specialisation. This component is about *the policy documents
    produced* — characterising their substantive content and the degree of
